@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Run the tests
-      working-directory: .\frontend
+      working-directory: ./frontend
       run: npm test
     - name: Build
       run: npm run build
